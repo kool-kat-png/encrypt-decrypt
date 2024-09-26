@@ -4,7 +4,7 @@ while True:
         d=input("NUMBERs:").split(" ")
         x=0
         for i in d:
-            d[x]=(int(d[x])**(1/2))**153
+            d[x]=((float(d[x])*152)**(1/2))
             x+=1
         x=0
         eged=[]
